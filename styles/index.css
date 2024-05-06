@@ -4,58 +4,51 @@
   padding: 0px;
 }
 body {
-  font-weight: bold;
-  max-width: 1440px;
-  /* margin: 0 auto; */
+  background-image: url(../assets/images/background.jpg);
+}
+header {
+  display: flex;
+  margin: 30px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
 }
 
-.header_text {
-  display: flex;
-  background-color: rgb(178, 166, 166);
-  padding: 20px;
-  justify-content: center;
+.nav_link {
+  font-size: 16px;
+  line-height: 112%;
+  color: #aa87a8;
+  text-decoration: none;
+  padding: 30px;
 }
-.main {
+.h1 {
   display: flex;
+  font-size: 50px;
+  color: #95775e;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 .main2 {
+  background-color: rgba(204, 172, 206, 0.916);
   display: flex;
   flex-wrap: wrap;
 }
 .main2_div {
-  background-color: rgba(207, 207, 82, 0.916);
-  /* padding: 20px; */
-  margin: 10px;
-  min-width: 300px;
-  flex-grow: 1;
-}
-.main1 {
-  background-color: rgba(234, 239, 126, 0.916);
-  max-width: 650px;
-}
-.footer {
   display: flex;
-  justify-content: space-around;
-  background-color: rgb(178, 166, 166);
-  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
 }
-.aside {
-  display: flex;
-  flex-grow: 1;
-  background-color: rgb(179, 235, 149);
+.img {
+  width: 300px;
+  height: 200px;
 }
-.footer_div {
-  padding: 20px;
-  background-color: #fff;
-  margin: 10px;
-}
-.p1 {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-.aside {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
+
+/* Не работает
+
+
+.img:hover {
+  border-color: #b336b9;
+  border: 3px;
+} */
